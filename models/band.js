@@ -11,9 +11,6 @@ module.exports = (sequelize, DataTypes) => {
                 as: "meet_greets"
             })
         }
-        static associate(models) {
-            // define association here
-        }
     }
     Band.init({
         band_id: {
